@@ -888,10 +888,11 @@ ul {
 
 .form {
   display: flex;
+  gap: 24px;
 }
 
 .form-label {
-  gap: 24px;
+
 }
 
 .email-input {
@@ -917,6 +918,7 @@ ul {
   height: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: 'Roboto' sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -927,4 +929,8 @@ ul {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+}
+
+.subscribe-svg {
+  margin-left: 16px;
 }
