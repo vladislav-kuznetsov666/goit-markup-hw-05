@@ -899,7 +899,7 @@ ul {
 }
 
 .input-wrapper {
-  position: absolute;
+  position: relative;
   display: flex;
 width: 360px;
 flex-direction: column;
