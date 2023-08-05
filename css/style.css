@@ -922,7 +922,7 @@ gap: 8px;
   border-color: #4D5AE5;
 }
 
-.modal-input:focus .modal-icon {
+.modal-input:focus + .modal-icon {
   fill: #4D5AE5;
 }
 
@@ -981,7 +981,7 @@ gap: 8px;
   fill: transparent;
 }
 
-.checkbox-input:checked .privacy-policy {
+.checkbox-input:checked + .checkbox-label .privacy-policy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -1006,6 +1006,7 @@ gap: 8px;
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
 }
 
 
@@ -1015,7 +1016,7 @@ gap: 8px;
 /* Form  */
 
 .form-container {
-
+margin-left: 80px;
 }
 
 .form-text {
