@@ -1040,6 +1040,7 @@ margin-left: 80px;
 .email-input {
   width: 264px;
   height: 40px;
+  color: #ffffff;
   border: 1px solid #ffffff;
   background-color: transparent;
   font-size: 12px;
@@ -1048,7 +1049,6 @@ margin-left: 80px;
   padding-left: 16px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  color: #ffffff;
 }
 
 .email-input:placeholder-shown {
